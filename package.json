@@ -1,0 +1,27 @@
+{
+  "name": "kb3-vite",
+  "version": "1.0.0",
+  "description": "<img src=\"http://getkirby.com/assets/images/github/starterkit.jpg\" width=\"300\">",
+  "main": "src/index.js",
+  "scripts": {
+    "vite": "vite",
+    "dev": "shx touch src/.lock && concurrently \"npm:serve\" \"npm:vite\"",
+    "serve": "php -S localhost:8080 -t public kirby/router.php",
+    "build": "shx rm -f src/.lock && vite build"
+  },
+  "keywords": [],
+  "author": "Taoguang",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "concurrently": "^7.1.0",
+    "postcss": "^8.4.12",
+    "shx": "^0.3.4",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5",
+    "vite-plugin-live-reload": "^2.1.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.10.2"
+  }
+}
