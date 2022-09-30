@@ -1,10 +1,14 @@
 {
   "index.js": {
-    "file": "index.a2786d16.js",
+    "file": "js/index-ed45266b.js",
     "src": "index.js",
     "isEntry": true,
     "css": [
-      "index.1978b994.css"
+      "css/index-a6f2c2f1.css"
     ]
+  },
+  "index.css": {
+    "file": "css/index-a6f2c2f1.css",
+    "src": "index.css"
   }
 }
